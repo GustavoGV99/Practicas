@@ -1,7 +1,7 @@
 MARCKDOWN
 # Practicas y coneptos en JS
 
-_Proyecto personal_
+__Proyecto personal__
 
 Repositorio para practicar conceptos y buenas practicas en JS
 
