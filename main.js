@@ -1,8 +1,35 @@
+//SCOPE -> al contexto dentro de tu programa
+
 let a = 10;
 let b = "10";
 let c;
 let d;
 
+const constante = 1;
+var variable = 2;
+let lett = 3;
+
+function variables(){
+  let lett = 6;
+  const constante = 2;
+
+  console.log(lett);
+  console.log(constante);
+  
+}
+
+variable();
+console.log(lett);
+console.log(constante);
+
+if (true) {
+  const local = "";
+  let local2;
+  var variable = "soy var";
+
+ 
+  
+}
 /**
  * Método que se utiliza para sumar por parametros.
  * @param {*} primerNumero es el primer valor de la sumar
