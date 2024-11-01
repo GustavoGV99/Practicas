@@ -31,12 +31,12 @@ console.log("###################################################################
 // de los metodos usados anteriormente, ahora debes usar programación funcional para filtrar los precios en oferta, extraer el precio y sumar el total
 
 
-let oferta = carrito.filter( n => n.enOferta ).reduce((acc,item) => {
+let oferta = carrito.filter( n => n.enOferta === true ).reduce((acc,item) => {
     return acc+= item.precio;
 }, 0);
 console.log("Listo: ",oferta);
 
-let ofertaconmap = carrito.filter( n => n.enOferta ).map(n=> n.precio).reduce((acc, item) => {
+let ofertaconmap = carrito.filter( n => n.enOferta === true ).map(n=> n.precio).reduce((acc, item) => {
     return acc += item;
 }, 0);
 console.log("Listo: ",ofertaconmap);
